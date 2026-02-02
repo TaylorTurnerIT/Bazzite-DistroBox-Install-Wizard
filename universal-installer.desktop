@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Install with Distrobox Wizard
+Comment=Auto-install .deb and .rpm files
+Exec=/home/deck/.local/bin/universal-installer.sh %f
+Icon=system-software-install
+Terminal=true
+Categories=System;
+MimeType=application/vnd.debian.binary-package;application/x-rpm;
